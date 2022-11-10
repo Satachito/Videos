@@ -32,7 +32,7 @@ Window	: View {
 		ScrollView {
 			VStack( spacing: 0 ) {
 				ForEach( players ) {
-					PlayerV( $0.player )
+					VideoPlayer( player: $0.player )
 					.frame( height: 256 )
 				}
 			}

@@ -9,18 +9,16 @@
 /* Begin PBXBuildFile section */
 		123D0F1427421FB400C89144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123D0F1327421FB400C89144 /* Assets.xcassets */; };
 		123D0F1727421FB400C89144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123D0F1627421FB400C89144 /* Preview Assets.xcassets */; };
-		123D0F1D274220AA00C89144 /* PlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D0F1C274220AA00C89144 /* PlayerV.swift */; };
-		123D0F1E274220AA00C89144 /* PlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D0F1C274220AA00C89144 /* PlayerV.swift */; };
-		123D0F1F274220AA00C89144 /* PlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D0F1C274220AA00C89144 /* PlayerV.swift */; };
 		1261ADDC2744D1DD00157FAF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D0F1127421FB200C89144 /* App.swift */; };
 		1261ADE42744FB0100157FAF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261ADE32744FB0100157FAF /* App.swift */; };
 		1261ADE82744FB0300157FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1261ADE72744FB0300157FAF /* Assets.xcassets */; };
 		1261ADEB2744FB0300157FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1261ADEA2744FB0300157FAF /* Preview Assets.xcassets */; };
-		1261ADF02744FB4200157FAF /* PlayerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D0F1C274220AA00C89144 /* PlayerV.swift */; };
+		1261ADF8274618E100157FAF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261ADF7274618E100157FAF /* App.swift */; };
+		1261ADFC274618E300157FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1261ADFB274618E300157FAF /* Assets.xcassets */; };
+		1261ADFF274618E300157FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1261ADFE274618E300157FAF /* Preview Assets.xcassets */; };
 		129F9E7D273F832C0046E1E3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F9E7C273F832C0046E1E3 /* App.swift */; };
 		129F9E81273F832D0046E1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129F9E80273F832D0046E1E3 /* Assets.xcassets */; };
 		129F9E84273F832D0046E1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129F9E83273F832D0046E1E3 /* Preview Assets.xcassets */; };
-		129F9E90273F85A10046E1E3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F9E8F273F85A10046E1E3 /* App.swift */; };
 		129F9E94273F85A30046E1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129F9E93273F85A30046E1E3 /* Assets.xcassets */; };
 		129F9E97273F85A30046E1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129F9E96273F85A30046E1E3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,6 +36,11 @@
 		1261ADE72744FB0300157FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1261ADEA2744FB0300157FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1261ADEC2744FB0300157FAF /* QueuePlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QueuePlayer.entitlements; sourceTree = "<group>"; };
+		1261ADF5274618E100157FAF /* NHK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1261ADF7274618E100157FAF /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1261ADFB274618E300157FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1261ADFE274618E300157FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1261AE00274618E300157FAF /* NHK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NHK.entitlements; sourceTree = "<group>"; };
 		129F9E7A273F832C0046E1E3 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		129F9E7C273F832C0046E1E3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		129F9E80273F832D0046E1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +62,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1261ADDE2744FB0100157FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261ADF2274618E100157FAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,6 +120,7 @@
 				129F9E8E273F85A10046E1E3 /* Comparator */,
 				123D0F0E27421FB200C89144 /* Fragments */,
 				1261ADE22744FB0100157FAF /* QueuePlayer */,
+				1261ADF6274618E100157FAF /* NHK */,
 				124BC952273A80F400F4C135 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +132,7 @@
 				129F9E8D273F85A10046E1E3 /* Comparator.app */,
 				123D0F0D27421FB200C89144 /* Fragments.app */,
 				1261ADE12744FB0100157FAF /* QueuePlayer.app */,
+				1261ADF5274618E100157FAF /* NHK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +152,25 @@
 			isa = PBXGroup;
 			children = (
 				1261ADEA2744FB0300157FAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1261ADF6274618E100157FAF /* NHK */ = {
+			isa = PBXGroup;
+			children = (
+				1261ADF7274618E100157FAF /* App.swift */,
+				1261ADFB274618E300157FAF /* Assets.xcassets */,
+				1261AE00274618E300157FAF /* NHK.entitlements */,
+				1261ADFD274618E300157FAF /* Preview Content */,
+			);
+			path = NHK;
+			sourceTree = "<group>";
+		};
+		1261ADFD274618E300157FAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1261ADFE274618E300157FAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -219,6 +250,23 @@
 			productReference = 1261ADE12744FB0100157FAF /* QueuePlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1261ADF4274618E100157FAF /* NHK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1261AE01274618E300157FAF /* Build configuration list for PBXNativeTarget "NHK" */;
+			buildPhases = (
+				1261ADF1274618E100157FAF /* Sources */,
+				1261ADF2274618E100157FAF /* Frameworks */,
+				1261ADF3274618E100157FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHK;
+			productName = NHK;
+			productReference = 1261ADF5274618E100157FAF /* NHK.app */;
+			productType = "com.apple.product-type.application";
+		};
 		129F9E79273F832C0046E1E3 /* macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129F9E88273F832D0046E1E3 /* Build configuration list for PBXNativeTarget "macOS" */;
@@ -269,6 +317,9 @@
 					1261ADE02744FB0100157FAF = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					1261ADF4274618E100157FAF = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					129F9E79273F832C0046E1E3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -294,6 +345,7 @@
 				129F9E8C273F85A10046E1E3 /* Comparator */,
 				123D0F0C27421FB200C89144 /* Fragments */,
 				1261ADE02744FB0100157FAF /* QueuePlayer */,
+				1261ADF4274618E100157FAF /* NHK */,
 			);
 		};
 /* End PBXProject section */
@@ -314,6 +366,15 @@
 			files = (
 				1261ADEB2744FB0300157FAF /* Preview Assets.xcassets in Resources */,
 				1261ADE82744FB0300157FAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261ADF3274618E100157FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261ADFF274618E300157FAF /* Preview Assets.xcassets in Resources */,
+				1261ADFC274618E300157FAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +404,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1261ADDC2744D1DD00157FAF /* App.swift in Sources */,
-				123D0F1F274220AA00C89144 /* PlayerV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +412,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1261ADE42744FB0100157FAF /* App.swift in Sources */,
-				1261ADF02744FB4200157FAF /* PlayerV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261ADF1274618E100157FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261ADF8274618E100157FAF /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +427,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123D0F1D274220AA00C89144 /* PlayerV.swift in Sources */,
 				129F9E7D273F832C0046E1E3 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,8 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123D0F1E274220AA00C89144 /* PlayerV.swift in Sources */,
-				129F9E90273F85A10046E1E3 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +670,60 @@
 			};
 			name = Release;
 		};
+		1261AE02274618E300157FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NHK/NHK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NHK/Preview Content\"";
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.828.NHK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1261AE03274618E300157FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NHK/NHK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NHK/Preview Content\"";
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.828.NHK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		129F9E86273F832D0046E1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -748,6 +866,15 @@
 			buildConfigurations = (
 				1261ADEE2744FB0300157FAF /* Debug */,
 				1261ADEF2744FB0300157FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1261AE01274618E300157FAF /* Build configuration list for PBXNativeTarget "NHK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1261AE02274618E300157FAF /* Debug */,
+				1261AE03274618E300157FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

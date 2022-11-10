@@ -1,3 +1,7 @@
+//	Apple releases VideoPlayer, which has same functionality to this PlayerV
+//	So replace this class, PlayerV, by apple's VideoPlayer.
+
+/*
 import SwiftUI
 import AVKit
 
@@ -21,3 +25,4 @@ PlayerV: NSViewRepresentable {
 		return v
 	}
 }
+*/

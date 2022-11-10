@@ -29,7 +29,7 @@ Window	: View {
 			VStack( spacing: 0 ) {
 				ForEach( players ) { player in
 					Text( player.url.path )
-					PlayerV( player.player )
+					VideoPlayer( player: player.player )
 					.onDisappear { player.player.pause() }
 					.frame( width: 640, height: 480 )
 				}
